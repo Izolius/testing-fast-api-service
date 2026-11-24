@@ -1,0 +1,31 @@
+users:
+  ee0259fa-d678-4042-ac8f-766c1378cb7f:
+    phone: '79091113388'
+    city_plus_enabled: true
+    known_mm_lkp_user_id: false
+    key_change_limit: 5
+    key_change_left: 5
+    key_biometry_option: false
+    card_info:
+      type: CARD
+      hash_key: b098c5a7-d0d4-433f-8d06-40d47cb3011f
+      pay_system: MC
+      masked_pan: '6774'
+      card_uid: 2958ff5b-5a91-4029-888d-b37c54d06660
+payments:
+  4d3322a6-3dfa-4c60-a8c4-3a2dc3ff20f0:
+    maas_user_id: ee0259fa-d678-4042-ac8f-766c1378cb7f
+    redirect_urls:
+      succeed: https://success.com
+      declined: https://decline.com
+      canceled: https://cancel.com
+    status: SUCCESS
+    auth:
+      status:
+        status: SUCCESS
+        response_code: null
+        response_descr: null
+      date: null
+      code: null
+      card: null
+      receipt_urls: null
